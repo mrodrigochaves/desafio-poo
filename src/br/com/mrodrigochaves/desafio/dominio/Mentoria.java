@@ -1,5 +1,6 @@
 package br.com.mrodrigochaves.desafio.dominio;
 
+import java.lang.reflect.Constructor;
 import java.time.LocalDate;
 
 public class Mentoria {
@@ -8,7 +9,12 @@ public class Mentoria {
     private String descricao; 
     private LocalDate data;
 
+    
 
+
+    public Mentoria() {
+        
+    }
     public String getTitulo() {
         return titulo;
     }
